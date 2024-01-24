@@ -1,13 +1,12 @@
-
 import React from "react";
-import './../styles/App.css';
+import UserList from "./components/UserList";
 
-const App = () => {
+function App() {
   return (
-    <div>
-        {/* Do not remove the main div */}
+    <div className="App">
+      <UserList />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
